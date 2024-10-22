@@ -147,6 +147,12 @@ body {
     letter-spacing: 2px;
     font-weight: 800;
     border: none;
+    cursor: pointer;
+}
+
+.hero-cta:hover {
+    background-color: var(--very-dark-blue);
+    color: #fff;
 }
 
 /* aside section */
