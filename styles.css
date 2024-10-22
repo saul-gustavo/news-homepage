@@ -180,6 +180,12 @@ body {
 
 .aside-title {
     margin: 1rem 0rem;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.aside-title:hover {
+    color: var(--soft-orange);
 }
 
 /* cards section */
@@ -210,6 +216,12 @@ body {
 .card-sub {
     font-weight: 800;
     margin-bottom: 10px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.card-sub:hover {
+    color: var(--soft-red);
 }
 
 .card-p {
